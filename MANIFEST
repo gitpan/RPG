@@ -9,6 +9,7 @@ lib/RPG.pm
 lib/RPG/Dice.pm
 lib/RPG/Traveller/Starmaps/Constants.pm
 lib/RPG/Traveller/Starmaps/Constants.pm~
+perltidy.LOG
 t/01-AA-Dice.t
 t/author-critic.t
 t/release-pod-coverage.t

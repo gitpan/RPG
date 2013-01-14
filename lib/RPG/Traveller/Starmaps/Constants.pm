@@ -16,7 +16,27 @@ use constant G => 5;
 use constant K => 6;
 use constant M => 7;
 
-use constant s_star_types => qw/ O B A F G K M /;
+use constant s_star_types => qw/ undef O B A F G K M /;
+
+# Constants for star sizes
+use constant Ia  => 1;
+use constant Ib  => 2;
+use constant II  => 3;
+use constant III => 4;
+use constant IV  => 5;
+use constant V   => 6;
+use constant VI  => 7;
+use constant D   => 8;
+
+use constant s_star_sizes => qw/ undef Ia Ib II III IV V VI D /;
+
+# Constants for orbital zones
+
+use constant INSIDE_STAR    => 1;
+use constant INNER_ZONE     => 2;
+use constant HABITABLE_ZONE => 3;
+use constant OUTER_ZONE     => 4;
+use constant FAR_ORBIT      => 99999;
 
 our @ISA = qw(Exporter);
 
@@ -58,7 +78,7 @@ RPG::Traveller::Starmaps::Constants - Constants for Traveller Starmap Generation
 
 =head1 VERSION
 
-version 0.501
+version 0.502
 
 =head1 SYNOPSIS
 

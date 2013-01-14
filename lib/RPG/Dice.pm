@@ -48,7 +48,7 @@ RPG::Dice - emulate rolling dice
 
 =head1 VERSION
 
-version 0.501
+version 0.502
 
 =head1 SYNOPSIS
 

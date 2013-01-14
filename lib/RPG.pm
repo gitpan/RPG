@@ -3,6 +3,8 @@ use warnings;
 
 package RPG;
 
+# ABSTRACT:  This is merely a placeholder at this time.
+
 1;
 
 __END__
@@ -11,11 +13,11 @@ __END__
 
 =head1 NAME
 
-RPG
+RPG - This is merely a placeholder at this time.
 
 =head1 VERSION
 
-version 0.501
+version 0.502
 
 =head1 AUTHOR
 
