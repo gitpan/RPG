@@ -1,8 +1,7 @@
+package RPG::Dice;
 use strict;
 use warnings;
 use Carp;
-
-package RPG::Dice;
 
 # ABSTRACT: emulate rolling dice
 
@@ -49,7 +48,7 @@ RPG::Dice - emulate rolling dice
 
 =head1 VERSION
 
-version 0.5
+version 0.501
 
 =head1 SYNOPSIS
 
@@ -64,6 +63,11 @@ version 0.5
 	my $x = $d1->roll();
 
 =head1 METHODS
+
+=head2 new 
+
+This is the constructor method for this module.  You pass a string constant
+to the module in the form of XdY where X is the number of dice and Y is the number of sides to the dice.
 
 =head2 roll
 

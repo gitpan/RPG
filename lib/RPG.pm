@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+
 package RPG;
 
 1;
@@ -14,7 +15,7 @@ RPG
 
 =head1 VERSION
 
-version 0.5
+version 0.501
 
 =head1 AUTHOR
 

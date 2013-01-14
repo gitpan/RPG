@@ -1,3 +1,4 @@
+Build.PL
 LICENSE
 MANIFEST
 META.yml
@@ -6,3 +7,9 @@ README
 dist.ini
 lib/RPG.pm
 lib/RPG/Dice.pm
+lib/RPG/Traveller/Starmaps/Constants.pm
+lib/RPG/Traveller/Starmaps/Constants.pm~
+t/01-AA-Dice.t
+t/author-critic.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t

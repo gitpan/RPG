@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.014002;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -11,18 +11,28 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "\"Modules for RPG Games such as Traveller\"",
   "AUTHOR" => "Peter L. Berghold <peter\@berghold.net>",
-  "BUILD_REQUIRES" => {},
+  "BUILD_REQUIRES" => {
+    "Module::Build" => "0.3601",
+    "Test::More" => "0.88"
+  },
   "CONFIGURE_REQUIRES" => {
-    "ExtUtils::MakeMaker" => "6.30"
+    "ExtUtils::MakeMaker" => "6.30",
+    "Module::Build" => "0.3601"
   },
   "DISTNAME" => "RPG",
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "RPG",
-  "PREREQ_PM" => {},
-  "VERSION" => "0.5",
+  "PREREQ_PM" => {
+    "Carp" => 0,
+    "Exporter" => 0,
+    "constant" => 0,
+    "strict" => 0,
+    "warnings" => 0
+  },
+  "VERSION" => "0.501",
   "test" => {
-    "TESTS" => ""
+    "TESTS" => "t/*.t"
   }
 );
 
